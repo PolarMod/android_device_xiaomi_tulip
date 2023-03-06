@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     DeviceConfigOverlay \
     FrameworksResOverlay \
     SettingsProviderOverlay \
-    SettingsResOverlay \
     SystemUIResOverlay \
     TelephonyOverlay \
     TulipNoCutoutOverlay \
@@ -121,9 +120,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor \
     android.hardware.biometrics.fingerprint@2.1-service.tulip
-
-PRODUCT_PACKAGES += \
-    IFAAService
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -367,7 +363,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.2.vendor \
     rild \
-    libcnefeatureconfig \
     librmnetctl \
     libprotobuf-cpp-full
 
