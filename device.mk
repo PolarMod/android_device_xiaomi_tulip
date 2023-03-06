@@ -94,10 +94,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libhdmiedid \
-    libhfp \
-    libldacBT_bco \
-    libldacBT_dec \
-    libsndmonitor
+    libhfp 
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
