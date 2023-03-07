@@ -26,3 +26,5 @@ TARGET_VENDOR_PRODUCT_NAME := tulip
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Stock fingerprint
+PRODUCT_STOCK_FINGERPRINT="xiaomi/tulip/tulip:9/PKQ1.180904.001/V10.3.2.0.PEKMIXM:user/release-keys"
