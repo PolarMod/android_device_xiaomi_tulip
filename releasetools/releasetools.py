@@ -40,8 +40,6 @@ def PrintInfo(info, dest):
   info.script.Print("Patching {} image unconditionally...".format(dest.split('/')[-1]))
 
 def OTA_InstallEnd(info, incremental=False):
-  PrintInfo(info, "/dev/block/by-name/vbmeta")
-  AddImage(info, "vbmeta.img", "/dev/block/by-name/vbmeta", incremental)
   PrintInfo(info, "/dev/block/by-name/recovery")
   AddImage(info, "recovery-two-step.img", "/dev/block/by-name/recovery", incremental, path="OTA/")
   return
