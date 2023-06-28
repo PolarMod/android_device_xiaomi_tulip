@@ -140,6 +140,8 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+BOARD_INCLUDE_RECOVERY_DTBO := true
+BOARD_USES_FULL_RECOVERY_IMAGE := true
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
